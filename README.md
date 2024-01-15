@@ -17,3 +17,13 @@ Langkah - langkah untuk melakukan tes otomatis dengan SELENIUM IDE :
 4. Script automation berada dalam repo ini
 
 
+Jawaban untuk soal teori :
+- melakukan verifikasi email akun dummy dapat dilakukan secara otomatis. Caranya adalah dengan menggunakan API atau library yang disediakan oleh sistem tersebut. API atau library tersebut biasanya menyediakan fungsi atau method untuk melakukan verifikasi email.
+- Dalam kasus di mana QA engineer mendapat akses database suatu sistem yang menyimpan token verifikasi email registrasi masing-masing user, maka QA engineer dapat menggunakan API atau library tersebut untuk melakukan verifikasi email akun dummy secara otomatis.
+
+Berikut adalah langkah-langkahnya:
+
+1. Dapatkan token verifikasi email dari database.
+2. Gunakan API atau library untuk melakukan verifikasi email menggunakan token tersebut.
+
+Dengan melakukan verifikasi email akun dummy secara otomatis, QA engineer dapat menghemat waktu dan tenaga. QA engineer juga dapat melakukan pengujian dengan lebih cepat dan efisien.
