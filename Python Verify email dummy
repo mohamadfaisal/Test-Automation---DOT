@@ -1,0 +1,21 @@
+import requests
+
+# API endpoint
+API_ENDPOINT = "https://api.example.com/v1/users/verify-email"
+
+# Token verifikasi email
+TOKEN = "1234567890"
+
+# Buat request
+response = requests.post(
+    API_ENDPOINT,
+    data={"token": TOKEN},
+)
+
+# Cek status response
+if response.status_code == 200:
+    # Verifikasi berhasil
+    print("Verifikasi berhasil")
+else:
+    # Verifikasi gagal
+    print("Verifikasi gagal")
